@@ -1,0 +1,94 @@
+/* Универсальный селектор */
+* {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Селекторы по тегу */
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  p, li {
+    line-height: 1.5;
+  }
+  
+  /* Селекторы по классу */
+  .main-title {
+    color: red; 
+  }
+  
+  .link {
+    color: green; 
+  }
+  
+  .link0 {
+    color: yellow; 
+  }
+  
+  .special-link {
+    color: blue; 
+  }
+  
+  .highlighted {
+    color: black;
+  }
+  
+  .1highlighted {
+    color: Brown;
+  }
+  
+  .note {
+    color: maroon; 
+  }
+  
+  .submit-btn {
+    color: black;
+  }
+  
+  /* Селекторы по идентификатору */
+  #first-post h2 {
+    color: orange; 
+  }
+  p {
+    color: orange;
+  }
+  
+  #second-post p {
+    color: purple;
+  }
+  
+  .post{
+      color:purple;
+  }
+  
+  
+  
+  /* Атрибутные селекторы */
+  [placeholder="Белый"] {
+    color: white; 
+  }
+  
+  /* Псевдоклассы и псевдоэлементы */
+  .link:hover {
+    text-decoration: underline; 
+  }
+  
+  .color-list li:nth-child(1) {
+    color: grey;
+  }
+  
+  .color-list li:nth-child(2) {
+    color: Brown;
+  }
+  
+  .color-list li:nth-child(3) {
+    color: black;
+  }
+  
+  .important-widget::before {
+    content: "Важный: ";
+    font-weight: bold;
+  }
+  
+  
+  
